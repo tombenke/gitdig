@@ -3,16 +3,16 @@
 'use strict';
 
 const _ = require('lodash')
-const repos = require('../tmp/data/out_ext.json')
+const repos = require('../tmp/out.json')
 
 const repoNames = _.map(repos, repo => repo.name)
 
 const relations = _.map(repos, repo => ({
         name: repo.name,
         description: repo.description,
-        tags: _.isArray(repo.package.keywords) ? repo.package.keywords : [],
-        dependencies: _.isObject(repo.package.dependencies) ?
-            _.intersection(repoNames, _.keys(repo.package.dependencies)) : []
+        tags: _.isArray(repo.tags) ? repo.tags : [],
+        dependencies: _.isObject(repo.dependencies) ?
+            _.intersection(repoNames, _.keys(repo.dependencies)) : []
     }))
 
 const dependants = _.reduce(relations, (results, dependant) => _.union(results, dependant.dependencies), [])
@@ -41,6 +41,6 @@ const printRelations = function() {
 
 //console.log(JSON.stringify(graph, null, '  '))
 //console.log(JSON.stringify(relations, null, '  '))
-//console.log(JSON.stringify(orphans, null, '  '))
+console.log(JSON.stringify(orphans, null, '  '))
 //console.log(JSON.stringify(dependants, null, '  '))
-printRelations()
+//printRelations()
