@@ -21,12 +21,12 @@
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .action(function(options) {
-                console.log(options)
+//                console.log(options)
                 var cliConfig = {}
                 if (options.gitUser) cliConfig.gitUser = options.gitUser;
                 if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
                 config.load(options.config, cliConfig);
-                console.log(JSON.stringify(config, null, '  '));
+//                console.log(JSON.stringify(config, null, '  '));
                 app.collect.execute(config);
             });
 
@@ -38,16 +38,16 @@
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
-//        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
         .action(function(options) {
-                console.log(options)
+//                console.log(options)
                 var cliConfig = {}
                 if (options.long) cliConfig.long = options.long;
                 if (options.gitUser) cliConfig.gitUser = options.gitUser;
                 if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
                 if (options.offline) cliConfig.offline = options.offline;
                 config.load(options.config, cliConfig);
-                console.log(JSON.stringify(config, null, '  '));
+//                console.log(JSON.stringify(config, null, '  '));
                 app.ls.execute(config);
             });
 
