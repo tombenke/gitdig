@@ -12,6 +12,12 @@
     program._name = thisPackage.name;
     var app = require('../index');
 
+    var ON_DEATH = require('death');
+ 
+    ON_DEATH(function(signal, err) {
+        //clean up code here 
+    })
+
     // Setup the commands of the program
     program
         .version(thisPackage.version)
