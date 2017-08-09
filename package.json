@@ -30,6 +30,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "base64-coder-node": "^1.0.7",
+    "chalk": "^2.1.0",
     "commander": "2.0.0",
     "github": "^9.2.0",
     "js-yaml": "^3.9.1",
@@ -37,6 +38,7 @@
     "readline-sync": "^1.4.7"
   },
   "devDependencies": {
+    "eslint": "^3.10.2",
     "gulp": "^3.8.10",
     "gulp-debug": "^1.0.1",
     "gulp-markdown": "^1.0.0",
@@ -46,6 +48,6 @@
     "gulp-rename": "^1.2.0"
   },
   "scripts": {
-    "lint": "jshint **.js"
+    "lint": "eslint lib/** bin/** config/**.js"
   }
 }
