@@ -37,7 +37,8 @@
     "github": "^9.2.0",
     "js-yaml": "^3.9.1",
     "lodash": "^4.17.4",
-    "readline-sync": "^1.4.7"
+    "readline-sync": "^1.4.7",
+    "bluebird": "2.11.0"
   },
   "devDependencies": {
     "eslint": "^3.10.2",
