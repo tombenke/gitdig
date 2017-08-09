@@ -30,6 +30,7 @@
                 var cliConfig = {}
                 if (options.gitUser) cliConfig.gitUser = options.gitUser;
                 if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
+                if (options.config) cliConfig.configFileName = options.config;
                 config.load(options.config, cliConfig);
                 app.collect.execute(config);
             });
@@ -48,6 +49,7 @@
                 if (options.gitUser) cliConfig.gitUser = options.gitUser;
                 if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
                 if (options.offline) cliConfig.offline = options.offline;
+                if (options.config) cliConfig.configFileName = options.config;
                 config.load(options.config, cliConfig);
                 app.ls.execute(config);
             });
@@ -64,6 +66,7 @@
                 if (options.gitUser) cliConfig.gitUser = options.gitUser;
                 if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
                 if (options.offline) cliConfig.offline = options.offline;
+                if (options.config) cliConfig.configFileName = options.config;
                 config.load(options.config, cliConfig);
                 app.check.execute(config);
             });
