@@ -2,7 +2,7 @@
 
 simple git tool for documenting and dicovering multi-repo projects
 
-You can do the following things with `gitd`:
+You can do the following things with `gitdig`:
 
 - Feature-1
 - Feature-2

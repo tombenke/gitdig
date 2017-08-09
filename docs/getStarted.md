@@ -4,28 +4,28 @@
 
 ### Prerequisites:
 
-`gitd` needs [Node.js](http://nodejs.org/) and [NPM](https://npmjs.org/) installed on the machine, before start installing and using it.
+`gitdig` needs [Node.js](http://nodejs.org/) and [NPM](https://npmjs.org/) installed on the machine, before start installing and using it.
 
 ### Installation steps
 
-The `gitd` tool can be installed as any other node module, but you have to install to the global node_modules folder, so use the `-g` switch to `npm`.
+The `gitdig` tool can be installed as any other node module, but you have to install to the global node_modules folder, so use the `-g` switch to `npm`.
 
-To install `gitd`, execute the following command:
+To install `gitdig`, execute the following command:
 
-    $ npm install -g gitd
+    $ npm install -g gitdig
 
-To check, whether gitd is installed successfully, run the following command:
+To check, whether gitdig is installed successfully, run the following command:
 
-    $ gitd -V
+    $ gitdig -V
 
 
-## Usage of the `gitd` utility
+## Usage of the `gitdig` utility
 
-Check if gitd is properly installed:
+Check if gitdig is properly installed:
 
-    $ gitd -h
+    $ gitdig -h
 
-      Usage: gitd [options]
+      Usage: gitdig [options]
 
       Options:
 

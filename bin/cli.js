@@ -29,7 +29,6 @@
             });
 
     program
-        .version(thisPackage.version)
         .command('ls')
         .description('List the repositories')
         .option("-l, --long", "Long format, including some details", Boolean, false)
@@ -48,7 +47,6 @@
             });
 
     program
-        .version(thisPackage.version)
         .command('check')
         .description('Check the repositories')
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)

@@ -51,6 +51,7 @@
     "gulp-rename": "^1.2.0"
   },
   "scripts": {
-    "lint": "eslint lib/** bin/** config/**.js"
+    "lint": "eslint lib/** bin/** config/**.js",
+    "docgen": "gulp docgen"
   }
 }
