@@ -1,0 +1,2874 @@
+[
+    {
+        "name": "1wire-relay-hw",
+        "owner": "tombenke",
+        "private": false,
+        "description": "1-wire port extender hardware module with relays",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/1wire-relay-hw",
+        "git_url": "git://github.com/tombenke/1wire-relay-hw.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "cogito",
+        "owner": "tombenke",
+        "private": false,
+        "description": "CouchDB based GTD -like web application",
+        "homepage": "tombenke.couchone.com/cogito/_design/cogito/index.html",
+        "html_url": "https://github.com/tombenke/cogito",
+        "git_url": "git://github.com/tombenke/cogito.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "contacts",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A sample web application project, using CouchDb, Node.js and ExtJS",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/contacts",
+        "git_url": "git://github.com/tombenke/contacts.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "couchme",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Readings about how to develop web applications with CouchDB and CouchApp for beginners (Hungarian)",
+        "homepage": "tombenke.couchone.com/couchme/_design/couchme/index.html",
+        "html_url": "https://github.com/tombenke/couchme",
+        "git_url": "git://github.com/tombenke/couchme.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "csvconv",
+        "owner": "tombenke",
+        "private": false,
+        "description": "CSV converter utility",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/csvconv",
+        "git_url": "git://github.com/tombenke/csvconv.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "darduino",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Dockerized Arduino IDE",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/darduino",
+        "git_url": "git://github.com/tombenke/darduino.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "deagle",
+        "owner": "tombenke",
+        "private": false,
+        "description": "The CadSoft EAGLE is dockerized and runs directly from the container",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/deagle",
+        "git_url": "git://github.com/tombenke/deagle.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "dmos",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Dockerized Mongoose-OS tools",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/dmos",
+        "git_url": "git://github.com/tombenke/dmos.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "fl2esd",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Command line utility which converts FluentD format log entries to elasticdump friendly format",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/fl2esd",
+        "git_url": "git://github.com/tombenke/fl2esd.git",
+        "package": {
+            "name": "fl2esd",
+            "description": "Command line utility which converts FluentD format log entries to elasticdump friendly format.",
+            "version": "1.0.3",
+            "keywords": [
+                "cli",
+                "util",
+                "tool",
+                "utility",
+                "elasticdump",
+                "elasticsearch",
+                "fluentd"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/fl2esd/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/fl2esd/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/fl2esd.git"
+            },
+            "bin": {
+                "fl2esd": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.9.0",
+                "glob": "^7.1.1",
+                "split": "^1.0.0",
+                "through2": "^2.0.3"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2"
+            },
+            "scripts": {
+                "lint": "eslint 'lib/**.js' 'bin/*.js'"
+            }
+        },
+        "tags": [
+            "cli",
+            "util",
+            "tool",
+            "utility",
+            "elasticdump",
+            "elasticsearch",
+            "fluentd"
+        ],
+        "dependencies": {
+            "commander": "2.9.0",
+            "glob": "^7.1.1",
+            "split": "^1.0.0",
+            "through2": "^2.0.3",
+            "eslint": "^3.10.2"
+        }
+    },
+    {
+        "name": "giri",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Garden Irrigator System main project",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri",
+        "git_url": "git://github.com/tombenke/giri.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-all-in-one",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Garden irrigator system - packaging all the system plugins into one application",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-all-in-one",
+        "git_url": "git://github.com/tombenke/giri-all-in-one.git",
+        "package": {
+            "name": "giri-all-in-one",
+            "description": "Garden irrigator system - packaging all the system plugins into one application",
+            "version": "1.0.0",
+            "tags": [
+                "giri",
+                "seneca",
+                "micro-services"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-all-in-one/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/giri-all-in-one/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/tombenke/giri-all-in-one",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-all-in-one.git"
+            },
+            "main": "lib/index",
+            "dependencies": {
+                "seneca": "^3.x.x",
+                "giri-web": "3.x.x",
+                "giri-system-control": "2.x.x",
+                "giri-cluster-control": "2.x.x",
+                "giri-sector-control": "2.x.x",
+                "giri-rest-api-proxy": "1.x.x",
+                "seneca-basic": "^0.5.0",
+                "seneca-entity": "^1.3.0"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "chai": "^3.5.0",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "giri-web": "3.x.x",
+            "giri-system-control": "2.x.x",
+            "giri-cluster-control": "2.x.x",
+            "giri-sector-control": "2.x.x",
+            "giri-rest-api-proxy": "1.x.x",
+            "seneca-basic": "^0.5.0",
+            "seneca-entity": "^1.3.0",
+            "eslint": "^3.10.2",
+            "chai": "^3.5.0",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "giri-cloud",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Cloud based garden irrigator system.",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-cloud",
+        "git_url": "git://github.com/tombenke/giri-cloud.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-cloud-fu",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Cloud based garden irrigator system using special functional units for cost optimization purposes.",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-cloud-fu",
+        "git_url": "git://github.com/tombenke/giri-cloud-fu.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-cluster-control",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Cluster control plugin of the giri system",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-cluster-control",
+        "git_url": "git://github.com/tombenke/giri-cluster-control.git",
+        "package": {
+            "name": "giri-cluster-control",
+            "description": "Cluster control plugin of the giri system",
+            "version": "2.3.2",
+            "tags": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-cluster-control/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/giri-cluster-control",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-cluster-control.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "lodash": "^4.17.2",
+                "node-uuid": "^1.x.x",
+                "seneca": "^3.3.x"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.4.5",
+                "babel-plugin-transform-runtime": "^6.8.0",
+                "babel-polyfill": "^6.9.1",
+                "babel-preset-es2015": "^6.6.0",
+                "babel-register": "^6.3.13",
+                "babel-runtime": "^6.6.1",
+                "chai": "^3.5.0",
+                "coveralls": "^2.11.15",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "mocha": "^2.x.x",
+                "mocha-lcov-reporter": "^1.2.0",
+                "pre-push": "^0.1.1",
+                "seneca-stub": "^1.2.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "lodash": "^4.17.2",
+            "node-uuid": "^1.x.x",
+            "seneca": "^3.3.x",
+            "babel-cli": "^6.4.5",
+            "babel-plugin-transform-runtime": "^6.8.0",
+            "babel-polyfill": "^6.9.1",
+            "babel-preset-es2015": "^6.6.0",
+            "babel-register": "^6.3.13",
+            "babel-runtime": "^6.6.1",
+            "chai": "^3.5.0",
+            "coveralls": "^2.11.15",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "mocha": "^2.x.x",
+            "mocha-lcov-reporter": "^1.2.0",
+            "pre-push": "^0.1.1",
+            "seneca-stub": "^1.2.2"
+        }
+    },
+    {
+        "name": "giri-configs",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Central repository for the different kind of giri configurations",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-configs",
+        "git_url": "git://github.com/tombenke/giri-configs.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-fu",
+        "owner": "tombenke",
+        "private": false,
+        "description": "giri functional unit firmware",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-fu",
+        "git_url": "git://github.com/tombenke/giri-fu.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-fu-hw",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Hardware module for giri functional unit",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-fu-hw",
+        "git_url": "git://github.com/tombenke/giri-fu-hw.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "giri-rest-api",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Specification of the giri garden irrigator REST API endpoints.",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/giri-rest-api",
+        "git_url": "git://github.com/tombenke/giri-rest-api.git",
+        "package": {
+            "name": "giri-rest-api",
+            "description": "Specification of the giri garden irrigator REST API endpoints",
+            "version": "1.0.1",
+            "tags": [
+                "seneca",
+                "micro-services",
+                "giri",
+                "web"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-rest-api/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/giri-rest-api/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/tombenke/giri-rest-api",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-rest-api.git"
+            },
+            "main": "lib/index",
+            "dependencies": {
+                "rest-tool-common": "1.0.0"
+            },
+            "devDependencies": {},
+            "scripts": {
+                "test": "echo No tests defined!"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "rest-tool-common": "1.0.0"
+        }
+    },
+    {
+        "name": "giri-rest-api-mock",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A simple mock server for the giri-rest-api",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-rest-api-mock",
+        "git_url": "git://github.com/tombenke/giri-rest-api-mock.git",
+        "package": {
+            "name": "giri-rest-api-mock",
+            "description": " API specification, test cases and mock server for the RESTful services of the giri project",
+            "version": "1.0.0",
+            "tags": [
+                "giri",
+                "seneca",
+                "micro-services"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-rest-api-mock/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/giri-rest-api-mock/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/tombenke/giri-rest-api-mock",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-rest-api-mock.git"
+            },
+            "main": "server/server.js",
+            "dependencies": {
+                "should": "3.1.2",
+                "superagent": "0.15.x",
+                "giri-rest-api": "1.0.0",
+                "mu2": "latest",
+                "mocha": "latest",
+                "jayschema": "0.2.x",
+                "js-yaml": "latest",
+                "express": "3.3.6",
+                "request": "*",
+                "http-proxy": "0.10.3"
+            },
+            "devDependencies": {},
+            "scripts": {
+                "test": "echo Error: No tests defined!"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "should": "3.1.2",
+            "superagent": "0.15.x",
+            "giri-rest-api": "1.0.0",
+            "mu2": "latest",
+            "mocha": "latest",
+            "jayschema": "0.2.x",
+            "js-yaml": "latest",
+            "express": "3.3.6",
+            "request": "*",
+            "http-proxy": "0.10.3"
+        }
+    },
+    {
+        "name": "giri-rest-api-proxy",
+        "owner": "tombenke",
+        "private": false,
+        "description": "REST API proxy plugin of the giri system",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-rest-api-proxy",
+        "git_url": "git://github.com/tombenke/giri-rest-api-proxy.git",
+        "package": {
+            "name": "giri-rest-api-proxy",
+            "description": "REST API proxy plugin of the giri system",
+            "version": "1.0.0",
+            "tags": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-rest-api-proxy/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/giri-rest-api-proxy",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-rest-api-proxy.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "seneca": "^3.x.x",
+                "boom": "^2.7.0",
+                "hapi": "^8.4.0",
+                "chairo": "https://github.com/rjrodger/chairo.git",
+                "giri-rest-api": "1.0.0"
+            },
+            "devDependencies": {
+                "async": "^2.1.4",
+                "chai": "^3.5.0",
+                "coveralls": "^2.11.15",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "mocha": "^2.x.x",
+                "mocha-lcov-reporter": "^1.2.0",
+                "seneca-stub": "^1.2.2",
+                "superagent": "^3.1.0"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "boom": "^2.7.0",
+            "hapi": "^8.4.0",
+            "chairo": "https://github.com/rjrodger/chairo.git",
+            "giri-rest-api": "1.0.0",
+            "async": "^2.1.4",
+            "chai": "^3.5.0",
+            "coveralls": "^2.11.15",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "mocha": "^2.x.x",
+            "mocha-lcov-reporter": "^1.2.0",
+            "seneca-stub": "^1.2.2",
+            "superagent": "^3.1.0"
+        }
+    },
+    {
+        "name": "giri-sector-control",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Sector control plugin of the giri system",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-sector-control",
+        "git_url": "git://github.com/tombenke/giri-sector-control.git",
+        "package": {
+            "name": "giri-sector-control",
+            "description": "Garden irrigator system - sector control microservices plugin",
+            "version": "2.4.2",
+            "tags": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-sector-control/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/giri-sector-control",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-sector-control.git"
+            },
+            "dependencies": {
+                "js-yaml": "^3.7.0",
+                "lodash": "^4.17.4",
+                "node-schedule": "^1.2.0",
+                "node-uuid": "^1.x.x",
+                "seneca": "^3.3.x",
+                "seneca-basic": "^0.5.0",
+                "seneca-entity": "^1.3.0",
+                "seneca-logtrans-plugin": "^1.0.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.4.5",
+                "babel-plugin-transform-runtime": "^6.8.0",
+                "babel-polyfill": "^6.9.1",
+                "babel-preset-es2015": "^6.6.0",
+                "babel-register": "^6.3.13",
+                "babel-runtime": "^6.6.1",
+                "chai": "^3.5.0",
+                "coveralls": "^2.11.15",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "mocha": "^2.x.x",
+                "mocha-lcov-reporter": "^1.2.0",
+                "pre-push": "^0.1.1",
+                "seneca-stub": "^1.2.2",
+                "should": "^11.2.0",
+                "sinon": "^1.17.7"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "scripts": {
+                "lint": "eslint lib/**/*.js",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'test/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --compilers js:babel-register --timeout 15000 'test/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'test/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "js-yaml": "^3.7.0",
+            "lodash": "^4.17.4",
+            "node-schedule": "^1.2.0",
+            "node-uuid": "^1.x.x",
+            "seneca": "^3.3.x",
+            "seneca-basic": "^0.5.0",
+            "seneca-entity": "^1.3.0",
+            "seneca-logtrans-plugin": "^1.0.3",
+            "babel-cli": "^6.4.5",
+            "babel-plugin-transform-runtime": "^6.8.0",
+            "babel-polyfill": "^6.9.1",
+            "babel-preset-es2015": "^6.6.0",
+            "babel-register": "^6.3.13",
+            "babel-runtime": "^6.6.1",
+            "chai": "^3.5.0",
+            "coveralls": "^2.11.15",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "mocha": "^2.x.x",
+            "mocha-lcov-reporter": "^1.2.0",
+            "pre-push": "^0.1.1",
+            "seneca-stub": "^1.2.2",
+            "should": "^11.2.0",
+            "sinon": "^1.17.7"
+        }
+    },
+    {
+        "name": "giri-sector-sm",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Garden IRrIgator System - sector control state machine",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-sector-sm",
+        "git_url": "git://github.com/tombenke/giri-sector-sm.git",
+        "package": {
+            "name": "giri-sector-control-sm",
+            "description": "Garden IRIgator System - sector control state machine",
+            "version": "1.0.0",
+            "tags": [
+                "seneca",
+                "plugin",
+                "microservice"
+            ],
+            "main": "lib/index.js",
+            "scripts": {
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --compilers js:babel-register --timeout 15000 'lib/**/*.spec.js'"
+            },
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-sector-sm/issues"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-sector-sm.git"
+            },
+            "dependencies": {
+                "seneca": "^3.x.x",
+                "seneca-sm": "^1.x.x"
+            },
+            "devDependencies": {
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "async": "1.x.x"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "seneca-sm": "^1.x.x",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "async": "1.x.x"
+        }
+    },
+    {
+        "name": "giri-system-control",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Garden irrigator system - system control module",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-system-control",
+        "git_url": "git://github.com/tombenke/giri-system-control.git",
+        "package": {
+            "name": "giri-system-control",
+            "description": "Garden irrigator System - system control module",
+            "version": "2.2.2",
+            "tags": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-system-control/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/giri-system-control",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-system-control.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "async": "^2.1.4",
+                "lodash": "^4.17.2",
+                "node-uuid": "^1.x.x",
+                "seneca": "^3.3.x"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.4.5",
+                "babel-plugin-transform-runtime": "^6.8.0",
+                "babel-polyfill": "^6.9.1",
+                "babel-preset-es2015": "^6.6.0",
+                "babel-register": "^6.3.13",
+                "babel-runtime": "^6.6.1",
+                "chai": "^3.5.0",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "seneca-stub": "^1.2.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --compilers js:babel-register --timeout 15000 'lib/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "async": "^2.1.4",
+            "lodash": "^4.17.2",
+            "node-uuid": "^1.x.x",
+            "seneca": "^3.3.x",
+            "babel-cli": "^6.4.5",
+            "babel-plugin-transform-runtime": "^6.8.0",
+            "babel-polyfill": "^6.9.1",
+            "babel-preset-es2015": "^6.6.0",
+            "babel-register": "^6.3.13",
+            "babel-runtime": "^6.6.1",
+            "chai": "^3.5.0",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "seneca-stub": "^1.2.2"
+        }
+    },
+    {
+        "name": "giri-web",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Web api proxy module of the garden irrigator system",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/giri-web",
+        "git_url": "git://github.com/tombenke/giri-web.git",
+        "package": {
+            "name": "giri-web",
+            "description": "Web api proxy module of the garden irrigator system",
+            "version": "3.5.1",
+            "tags": [
+                "seneca",
+                "micro-services",
+                "giri",
+                "web"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/giri-web/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/giri-web/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/tombenke/giri-web",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/giri-web.git"
+            },
+            "main": "lib/index",
+            "dependencies": {
+                "async": "^0.9.0",
+                "boom": "^2.7.0",
+                "hapi": "^8.4.0",
+                "mocha": "2.2.4",
+                "should": "^4.4.1",
+                "underscore": "^1.7.0",
+                "seneca": "^3.3.x",
+                "chairo": "https://github.com/rjrodger/chairo.git",
+                "giri-rest-api": "1.0.0"
+            },
+            "devDependencies": {
+                "chai": "^3.5.0",
+                "coveralls": "^2.11.15",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "mocha": "^2.x.x",
+                "mocha-lcov-reporter": "^1.2.0",
+                "pre-push": "^0.1.1",
+                "seneca-stub": "^1.2.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "async": "^0.9.0",
+            "boom": "^2.7.0",
+            "hapi": "^8.4.0",
+            "mocha": "2.2.4",
+            "should": "^4.4.1",
+            "underscore": "^1.7.0",
+            "seneca": "^3.3.x",
+            "chairo": "https://github.com/rjrodger/chairo.git",
+            "giri-rest-api": "1.0.0",
+            "chai": "^3.5.0",
+            "coveralls": "^2.11.15",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "mocha-lcov-reporter": "^1.2.0",
+            "pre-push": "^0.1.1",
+            "seneca-stub": "^1.2.2"
+        }
+    },
+    {
+        "name": "gitdig",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A simple git tool for documenting and discovering multi-repo projects",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/gitdig",
+        "git_url": "git://github.com/tombenke/gitdig.git",
+        "package": {
+            "name": "gitdig",
+            "description": "A simple git tool for documenting and discovering multi-repo projects",
+            "version": "1.1.1",
+            "keywords": [
+                "cli",
+                "git",
+                "git-api",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/gitdig/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/gitdig/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/gitdig.git"
+            },
+            "bin": {
+                "gitdig": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "async": "^2.5.0",
+                "base64-coder-node": "^1.0.7",
+                "bluebird": "2.11.0",
+                "chalk": "^2.1.0",
+                "commander": "2.0.0",
+                "death": "^1.1.0",
+                "github": "^9.2.0",
+                "js-yaml": "^3.9.1",
+                "lodash": "^4.17.4",
+                "readline-sync": "^1.4.7"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "gulp": "^3.8.10",
+                "gulp-debug": "^1.0.1",
+                "gulp-markdown": "^1.0.0",
+                "gulp-mustache": "^1.0.0",
+                "gulp-through": "^0.3.0",
+                "vinyl-buffer": "^1.0.0",
+                "gulp-rename": "^1.2.0"
+            },
+            "scripts": {
+                "lint": "eslint lib/** bin/** config/**.js",
+                "docgen": "gulp docgen"
+            }
+        },
+        "tags": [
+            "cli",
+            "git",
+            "git-api",
+            "util",
+            "tool",
+            "utility"
+        ],
+        "dependencies": {
+            "async": "^2.5.0",
+            "base64-coder-node": "^1.0.7",
+            "bluebird": "2.11.0",
+            "chalk": "^2.1.0",
+            "commander": "2.0.0",
+            "death": "^1.1.0",
+            "github": "^9.2.0",
+            "js-yaml": "^3.9.1",
+            "lodash": "^4.17.4",
+            "readline-sync": "^1.4.7",
+            "eslint": "^3.10.2",
+            "gulp": "^3.8.10",
+            "gulp-debug": "^1.0.1",
+            "gulp-markdown": "^1.0.0",
+            "gulp-mustache": "^1.0.0",
+            "gulp-through": "^0.3.0",
+            "vinyl-buffer": "^1.0.0",
+            "gulp-rename": "^1.2.0"
+        }
+    },
+    {
+        "name": "hapis-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Project archetype of a simple hapi server",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/hapis-archetype",
+        "git_url": "git://github.com/tombenke/hapis-archetype.git",
+        "package": {
+            "name": "{{appname}}",
+            "description": "{{app_description}}",
+            "version": "0.1.0",
+            "keywords": [
+                "cli",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{appname}}.git"
+            },
+            "bin": {
+                "hapis": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "async": "^0.9.0",
+                "boom": "^2.7.0",
+                "commander": "2.8.1",
+                "event-stream": "^3.1.7",
+                "good": "^6.0.0",
+                "good-console": "^5.0.0",
+                "good-file": "^5.0.0",
+                "good-http": "^5.0.0",
+                "hapi": "^8.4.0",
+                "mocha": "2.2.4",
+                "should": "^4.4.1",
+                "split": "^0.3.1",
+                "underscore": "^1.7.0"
+            },
+            "devDependencies": {
+                "gulp": "^3.8.10",
+                "gulp-debug": "^1.0.1",
+                "gulp-markdown": "^1.0.0",
+                "gulp-mustache": "^1.0.0",
+                "gulp-through": "^0.3.0",
+                "vinyl-buffer": "^1.0.0",
+                "gulp-rename": "^1.2.0"
+            },
+            "engines": {
+                "node": "0.12.7"
+            },
+            "scripts": {
+                "start": "node bin/cli.js",
+                "lint": "jshint **.js",
+                "test": "mocha -R spec"
+            }
+        },
+        "tags": [
+            "cli",
+            "util",
+            "tool",
+            "utility"
+        ],
+        "dependencies": {
+            "async": "^0.9.0",
+            "boom": "^2.7.0",
+            "commander": "2.8.1",
+            "event-stream": "^3.1.7",
+            "good": "^6.0.0",
+            "good-console": "^5.0.0",
+            "good-file": "^5.0.0",
+            "good-http": "^5.0.0",
+            "hapi": "^8.4.0",
+            "mocha": "2.2.4",
+            "should": "^4.4.1",
+            "split": "^0.3.1",
+            "underscore": "^1.7.0",
+            "gulp": "^3.8.10",
+            "gulp-debug": "^1.0.1",
+            "gulp-markdown": "^1.0.0",
+            "gulp-mustache": "^1.0.0",
+            "gulp-through": "^0.3.0",
+            "vinyl-buffer": "^1.0.0",
+            "gulp-rename": "^1.2.0"
+        }
+    },
+    {
+        "name": "heroku-buildpack-r",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Heroku buildpack for R (http://www.r-project.org)",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/heroku-buildpack-r",
+        "git_url": "git://github.com/tombenke/heroku-buildpack-r.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "heroku-buildpack-run",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Run custom commands during the build of a Heroku app",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/heroku-buildpack-run",
+        "git_url": "git://github.com/tombenke/heroku-buildpack-run.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "hunmap",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Hungarian counties and cities",
+        "homepage": "tombenke.couchone.com/hunmap/_design/hunmap/index.html",
+        "html_url": "https://github.com/tombenke/hunmap",
+        "git_url": "git://github.com/tombenke/hunmap.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "kickoff",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Command line tool to easily create boilerplate code for new projects and other things based on archetypes stored in GitHub repos",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/kickoff",
+        "git_url": "git://github.com/tombenke/kickoff.git",
+        "package": {
+            "name": "kickoff",
+            "description": "A Command-Line tool, which can be used to easily create boilerplate code for new projects and other things based on archetypes stored in GitHub repos.",
+            "version": "0.7.0",
+            "tags": [
+                "cli",
+                "util",
+                "tool",
+                "utility",
+                "archetype",
+                "template",
+                "git",
+                "github",
+                "kickoff"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/kickoff/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/kickoff/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/kickoff.git"
+            },
+            "bin": {
+                "kickoff": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "async": "^0.9.0",
+                "commander": "2.0.0",
+                "extend": "^2.0.0",
+                "gulp": "^3.8.10",
+                "gulp-debug": "^1.0.1",
+                "gulp-filter": "^1.0.2",
+                "gulp-handlebars": "^3.0.1",
+                "gulp-mustache": "^1.0.0",
+                "gulp-through": "^0.3.0",
+                "handlebars": "^2.0.0",
+                "inquirer": "^0.8.0",
+                "js-yaml": "^3.2.3",
+                "mustache": "0.8.2",
+                "underscore": "^1.7.0",
+                "vinyl-buffer": "^1.0.0",
+                "vinyl-github-src": "^0.1.1"
+            },
+            "devDependencies": {
+                "async": "^0.9.0",
+                "checksum": "^0.1.1",
+                "dirsum": "^0.1.1",
+                "gulp": "^3.8.10",
+                "gulp-markdown": "^1.0.0",
+                "gulp-rename": "^1.2.0",
+                "rimraf": "^2.2.8",
+                "should": "^4.4.1"
+            },
+            "scripts": {
+                "lint": "jshint **.js",
+                "env": "env",
+                "test": "mocha -R spec",
+                "userguide": "cat docs/about.md docs/getStarted.md docs/documentation.md docs/getHelp.md | marked > all.html ; wkhtmltopdf all.html docs/userguide.pdf; rm all.html"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "async": "^0.9.0",
+            "commander": "2.0.0",
+            "extend": "^2.0.0",
+            "gulp": "^3.8.10",
+            "gulp-debug": "^1.0.1",
+            "gulp-filter": "^1.0.2",
+            "gulp-handlebars": "^3.0.1",
+            "gulp-mustache": "^1.0.0",
+            "gulp-through": "^0.3.0",
+            "handlebars": "^2.0.0",
+            "inquirer": "^0.8.0",
+            "js-yaml": "^3.2.3",
+            "mustache": "0.8.2",
+            "underscore": "^1.7.0",
+            "vinyl-buffer": "^1.0.0",
+            "vinyl-github-src": "^0.1.1",
+            "checksum": "^0.1.1",
+            "dirsum": "^0.1.1",
+            "gulp-markdown": "^1.0.0",
+            "gulp-rename": "^1.2.0",
+            "rimraf": "^2.2.8",
+            "should": "^4.4.1"
+        }
+    },
+    {
+        "name": "landingpage_creative_archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A project archetype for landing page creation using the creative Bootstrap theme",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/landingpage_creative_archetype",
+        "git_url": "git://github.com/tombenke/landingpage_creative_archetype.git",
+        "package": {
+            "name": "{{project_name}}",
+            "description": "{{project_description}}",
+            "title": "{{title}}",
+            "version": "1.0.0",
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}/LICENSE"
+            },
+            "devDependencies": {
+                "bootstrap": "^3.3.7",
+                "browser-sync": "^2.13.0",
+                "font-awesome": "^4.6.3",
+                "gulp": "^3.9.1",
+                "gulp-clean-css": "^2.0.10",
+                "gulp-header": "^1.8.7",
+                "gulp-less": "^3.1.0",
+                "gulp-markdown": "^1.2.0",
+                "gulp-mustache": "^2.3.0",
+                "gulp-rename": "^1.2.2",
+                "gulp-uglify": "^1.5.4",
+                "jquery": "^1.11.3",
+                "magnific-popup": "^1.1.0",
+                "scrollreveal": "^3.1.4"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}.git"
+            },
+            "scripts": {
+                "build": "node_modules/gulp/bin/gulp.js",
+                "watch": "node_modules/gulp/bin/gulp.js watch"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "bootstrap": "^3.3.7",
+            "browser-sync": "^2.13.0",
+            "font-awesome": "^4.6.3",
+            "gulp": "^3.9.1",
+            "gulp-clean-css": "^2.0.10",
+            "gulp-header": "^1.8.7",
+            "gulp-less": "^3.1.0",
+            "gulp-markdown": "^1.2.0",
+            "gulp-mustache": "^2.3.0",
+            "gulp-rename": "^1.2.2",
+            "gulp-uglify": "^1.5.4",
+            "jquery": "^1.11.3",
+            "magnific-popup": "^1.1.0",
+            "scrollreveal": "^3.1.4"
+        }
+    },
+    {
+        "name": "me",
+        "owner": "tombenke",
+        "private": false,
+        "description": "This is about me",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/me",
+        "git_url": "git://github.com/tombenke/me.git",
+        "package": {
+            "name": "mysite",
+            "description": "This is my single page website.",
+            "title": "",
+            "version": "1.0.0",
+            "author": {
+                "name": "Anonymous",
+                "email": "anonymous@some-domain.com"
+            },
+            "bugs": {
+                "url": "https://github.com/anonymous//issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/anonymous/mysite/LICENSE"
+            },
+            "devDependencies": {
+                "bootstrap": "^3.3.7",
+                "browser-sync": "^2.13.0",
+                "font-awesome": "^4.6.3",
+                "gulp": "^3.9.1",
+                "gulp-data": "^1.2.1",
+                "gulp-clean-css": "^2.0.10",
+                "gulp-filter": "^4.0.0",
+                "gulp-header": "^1.8.7",
+                "gulp-less": "^3.1.0",
+                "gulp-markdown": "^1.2.0",
+                "gulp-mustache": "^2.3.0",
+                "gulp-rename": "^1.2.2",
+                "gulp-uglify": "^1.5.4",
+                "jquery": "^1.11.3",
+                "magnific-popup": "^1.1.0",
+                "scrollreveal": "^3.1.4",
+                "js-yaml": "^3.8.4"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/anonymous/mysite.git"
+            },
+            "scripts": {
+                "build": "node_modules/gulp/bin/gulp.js",
+                "watch": "node_modules/gulp/bin/gulp.js watch"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "bootstrap": "^3.3.7",
+            "browser-sync": "^2.13.0",
+            "font-awesome": "^4.6.3",
+            "gulp": "^3.9.1",
+            "gulp-data": "^1.2.1",
+            "gulp-clean-css": "^2.0.10",
+            "gulp-filter": "^4.0.0",
+            "gulp-header": "^1.8.7",
+            "gulp-less": "^3.1.0",
+            "gulp-markdown": "^1.2.0",
+            "gulp-mustache": "^2.3.0",
+            "gulp-rename": "^1.2.2",
+            "gulp-uglify": "^1.5.4",
+            "jquery": "^1.11.3",
+            "magnific-popup": "^1.1.0",
+            "scrollreveal": "^3.1.4",
+            "js-yaml": "^3.8.4"
+        }
+    },
+    {
+        "name": "mongo-bi",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A docker-compose project to analyze and monitor the business data that is stored in MongoDb, using ElasticSearch and Kibana",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/mongo-bi",
+        "git_url": "git://github.com/tombenke/mongo-bi.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "mongo-to-es-transport",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A docker image to migrate data from mongodb to elasticsearch using Compose / Transporter",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/mongo-to-es-transport",
+        "git_url": "git://github.com/tombenke/mongo-to-es-transport.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "ncli-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Project archetype for Command Line tools using Node.js",
+        "homepage": "",
+        "html_url": "https://github.com/tombenke/ncli-archetype",
+        "git_url": "git://github.com/tombenke/ncli-archetype.git",
+        "package": {
+            "name": "{{appname}}",
+            "description": "{{app_description}}",
+            "version": "1.0.1",
+            "keywords": [
+                "cli",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{appname}}.git"
+            },
+            "bin": {
+                "{{appname}}": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.0.0"
+            },
+            "devDependencies": {
+                "gulp": "^3.8.10",
+                "gulp-debug": "^1.0.1",
+                "gulp-markdown": "^1.0.0",
+                "gulp-mustache": "^1.0.0",
+                "gulp-through": "^0.3.0",
+                "vinyl-buffer": "^1.0.0",
+                "gulp-rename": "^1.2.0"
+            },
+            "scripts": {
+                "lint": "jshint **.js"
+            }
+        },
+        "tags": [
+            "cli",
+            "util",
+            "tool",
+            "utility"
+        ],
+        "dependencies": {
+            "commander": "2.0.0",
+            "gulp": "^3.8.10",
+            "gulp-debug": "^1.0.1",
+            "gulp-markdown": "^1.0.0",
+            "gulp-mustache": "^1.0.0",
+            "gulp-through": "^0.3.0",
+            "vinyl-buffer": "^1.0.0",
+            "gulp-rename": "^1.2.0"
+        }
+    },
+    {
+        "name": "Operations",
+        "owner": "tombenke",
+        "private": false,
+        "description": "An Arduino library to communicate as a slave with its master through the serial RS-485 line",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/Operations",
+        "git_url": "git://github.com/tombenke/Operations.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "proper",
+        "owner": "tombenke",
+        "private": false,
+        "description": "PROPER - Property graph manager utility",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/proper",
+        "git_url": "git://github.com/tombenke/proper.git",
+        "package": {
+            "name": "proper",
+            "version": "0.5.1",
+            "description": "Property Manager utility",
+            "keywords": [
+                "yaml",
+                "property-graph",
+                "graphs"
+            ],
+            "homepage": "https://github.com/tombenke/proper",
+            "author": "Tamás Benke <tombenke@gmail.com>",
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/proper/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/tombenke/proper.git"
+            },
+            "main": "./processor.js",
+            "engines": {
+                "node": "> 0.4.11"
+            },
+            "bin": {
+                "proper": "./bin/cli.js"
+            },
+            "dependencies": {
+                "commander": "2.0.0",
+                "js-yaml": "2.0.5",
+                "should": "1.2.2",
+                "xml-mapping": ">= 1.1.0",
+                "dot": "1.0.1"
+            }
+        },
+        "tags": [
+            "yaml",
+            "property-graph",
+            "graphs"
+        ],
+        "dependencies": {
+            "commander": "2.0.0",
+            "js-yaml": "2.0.5",
+            "should": "1.2.2",
+            "xml-mapping": ">= 1.1.0",
+            "dot": "1.0.1"
+        }
+    },
+    {
+        "name": "rbc-core",
+        "owner": "tombenke",
+        "private": false,
+        "description": "It is a Node.js module, which holds the core elements for a REST Based Component library",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rbc-core",
+        "git_url": "git://github.com/tombenke/rbc-core.git",
+        "package": {
+            "name": "rbc-core",
+            "description": "'rbc-core' holds the core elements for the REST Based Component library.",
+            "version": "0.1.1",
+            "tags": [
+                "cli",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/rbc-core/issues"
+            },
+            "license": {
+                "type": "GPLv3",
+                "url": "https://github.com/tombenke/rbc-core/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/rbc-core.git"
+            },
+            "bin": {
+                "rbc-core": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.0.0",
+                "mocha": "0.8.1",
+                "extend": "1.2.1"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "2.0.0",
+            "mocha": "0.8.1",
+            "extend": "1.2.1"
+        }
+    },
+    {
+        "name": "react-ui-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Project archetype of ReactJS UI",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/react-ui-archetype",
+        "git_url": "git://github.com/tombenke/react-ui-archetype.git",
+        "package": {
+            "name": "{{appname}}",
+            "description": "{{app_description}}",
+            "version": "2.0.0",
+            "keywords": [
+                "web",
+                "ui",
+                "react"
+            ],
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{appname}}.git"
+            },
+            "bin": {},
+            "main": "index.js",
+            "dependencies": {
+                "flux": "^2.1.1",
+                "history": "1.13.1",
+                "node-uuid": "^1.4.7",
+                "react": "^0.14.3",
+                "react-bootstrap": "^0.28.1",
+                "react-dom": "^0.14.3",
+                "react-router": "^1.0.2",
+                "react-router-bootstrap": "^0.19.3",
+                "underscore": "^1.8.3",
+                "watchify": "^3.6.1"
+            },
+            "devDependencies": {
+                "babel-preset-es2015": "^6.3.13",
+                "babel-preset-react": "^6.3.13",
+                "babelify": "^7.2.0",
+                "browserify": "^12.0.1",
+                "reactify": "^1.1.1",
+                "uglify-js": "^2.6.1"
+            },
+            "browserify": {
+                "transform": [
+                    [
+                        "babelify",
+                        {
+                            "presets": [
+                                "es2015",
+                                "react"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            "scripts": {
+                "lint": "jshint **.js",
+                "watch": "watchify lib/app.js -o dist/js/bundle.js -v",
+                "browserify": "browserify lib/app.js | uglifyjs > dist/js/bundle.js",
+                "build-js": "browserify -t [babelify] lib/app.jsx > dist/js/bundle.js",
+                "build": "npm run browserify;",
+                "style": "cp -r ../bootstrap/dist/css/* dist/css/; cp -r ../bootstrap/dist/fonts/* dist/fonts/; cp -r ../bootstrap/dist/js/bootstrap* dist/js/; cp node_modules/bootstrap-slider/dist/css/bootstrap-slider.min.css dist/css/"
+            }
+        },
+        "tags": [
+            "web",
+            "ui",
+            "react"
+        ],
+        "dependencies": {
+            "flux": "^2.1.1",
+            "history": "1.13.1",
+            "node-uuid": "^1.4.7",
+            "react": "^0.14.3",
+            "react-bootstrap": "^0.28.1",
+            "react-dom": "^0.14.3",
+            "react-router": "^1.0.2",
+            "react-router-bootstrap": "^0.19.3",
+            "underscore": "^1.8.3",
+            "watchify": "^3.6.1",
+            "babel-preset-es2015": "^6.3.13",
+            "babel-preset-react": "^6.3.13",
+            "babelify": "^7.2.0",
+            "browserify": "^12.0.1",
+            "reactify": "^1.1.1",
+            "uglify-js": "^2.6.1"
+        }
+    },
+    {
+        "name": "react-ui-material-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "React front-end project skeleton with Material-UI components",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/react-ui-material-archetype",
+        "git_url": "git://github.com/tombenke/react-ui-material-archetype.git",
+        "package": {
+            "name": "react-ui-material-archetype",
+            "description": "This is a ReactJs frontend application",
+            "version": "1.0.0",
+            "keywords": [
+                "web",
+                "ui",
+                "react"
+            ],
+            "author": {
+                "name": "Anonymous",
+                "email": "anonymous@some-domain.com"
+            },
+            "bugs": {
+                "url": "https://github.com/anonymous/react-ui-material-archetype/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/anonymous/react-ui-material-archetype/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/anonymous/react-ui-material-archetype.git"
+            },
+            "bin": {},
+            "main": "index.js",
+            "dependencies": {
+                "flux": "^2.1.1",
+                "history": "1.13.1",
+                "material-ui": "^0.14.1",
+                "node-uuid": "^1.4.7",
+                "react": "^0.14.3",
+                "react-dom": "^0.14.3",
+                "react-router": "1.0.2",
+                "react-tap-event-plugin": "^0.2.1",
+                "underscore": "^1.8.3",
+                "watchify": "^3.6.1"
+            },
+            "devDependencies": {
+                "babel-preset-es2015": "^6.3.13",
+                "babel-preset-react": "^6.3.13",
+                "babelify": "^7.2.0",
+                "browserify": "^12.0.1",
+                "mocha-eslint": "^1.0.0",
+                "reactify": "^1.1.1",
+                "uglify-js": "^2.6.1"
+            },
+            "browserify": {
+                "transform": [
+                    [
+                        "babelify",
+                        {
+                            "presets": [
+                                "es2015",
+                                "react"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            "scripts": {
+                "lint": "jshint **.js",
+                "watch": "watchify lib/app.js -o dist/bundle.js -v",
+                "browserify": "browserify lib/app.js | uglifyjs > dist/bundle.js",
+                "build": "npm run browserify;"
+            }
+        },
+        "tags": [
+            "web",
+            "ui",
+            "react"
+        ],
+        "dependencies": {
+            "flux": "^2.1.1",
+            "history": "1.13.1",
+            "material-ui": "^0.14.1",
+            "node-uuid": "^1.4.7",
+            "react": "^0.14.3",
+            "react-dom": "^0.14.3",
+            "react-router": "1.0.2",
+            "react-tap-event-plugin": "^0.2.1",
+            "underscore": "^1.8.3",
+            "watchify": "^3.6.1",
+            "babel-preset-es2015": "^6.3.13",
+            "babel-preset-react": "^6.3.13",
+            "babelify": "^7.2.0",
+            "browserify": "^12.0.1",
+            "mocha-eslint": "^1.0.0",
+            "reactify": "^1.1.1",
+            "uglify-js": "^2.6.1"
+        }
+    },
+    {
+        "name": "rest-endpoint-collection-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "kickoff archetype for REST collection endpoints",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-endpoint-collection-archetype",
+        "git_url": "git://github.com/tombenke/rest-endpoint-collection-archetype.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "rest-endpoint-operation-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "kickoff archetype for REST operation endpoints",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-endpoint-operation-archetype",
+        "git_url": "git://github.com/tombenke/rest-endpoint-operation-archetype.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "rest-endpoint-resource-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "kickoff archetype for REST resource endpoints",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-endpoint-resource-archetype",
+        "git_url": "git://github.com/tombenke/rest-endpoint-resource-archetype.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "rest-tool",
+        "owner": "tombenke",
+        "private": false,
+        "description": null,
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-tool",
+        "git_url": "git://github.com/tombenke/rest-tool.git",
+        "package": {
+            "name": "rest-tool",
+            "description": "A tool to document emulate and test RESTful APIs.",
+            "version": "0.5.2",
+            "tags": [
+                "rest",
+                "restful",
+                "api",
+                "docs",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/rest-tool.git"
+            },
+            "bin": {
+                "rest-tool": "./bin/rest-tool.js",
+                "rest-tool-manual-test": "./test/manual_test.sh"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.0.0",
+                "wrench": "1.5.6",
+                "proper": "0.5.0",
+                "rest-tool-common": "0.4.2",
+                "js-yaml": "2.1.0",
+                "should": "3.1.2",
+                "mu2": "0.5.20",
+                "mocha": "1.17.1",
+                "superagent": "0.16.0",
+                "marked": "~0.3.1"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "2.0.0",
+            "wrench": "1.5.6",
+            "proper": "0.5.0",
+            "rest-tool-common": "0.4.2",
+            "js-yaml": "2.1.0",
+            "should": "3.1.2",
+            "mu2": "0.5.20",
+            "mocha": "1.17.1",
+            "superagent": "0.16.0",
+            "marked": "~0.3.1"
+        }
+    },
+    {
+        "name": "rest-tool-common",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Common modules for the rest-tool",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-tool-common",
+        "git_url": "git://github.com/tombenke/rest-tool-common.git",
+        "package": {
+            "name": "rest-tool-common",
+            "description": "A tool to document emulate and test RESTful APIs.",
+            "version": "1.0.0",
+            "keywords": [
+                "rest",
+                "restful",
+                "api",
+                "docs",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/rest-tool-common.git"
+            },
+            "bin": {},
+            "main": "index",
+            "dependencies": {
+                "js-yaml": "2.1.0",
+                "mu2": "0.5.20",
+                "should": "3.1.2",
+                "jayschema": "0.2.x",
+                "wrench": "1.5.6"
+            },
+            "scripts": {
+                "test": "mocha -R spec test"
+            }
+        },
+        "tags": [
+            "rest",
+            "restful",
+            "api",
+            "docs",
+            "util",
+            "tool",
+            "utility"
+        ],
+        "dependencies": {
+            "js-yaml": "2.1.0",
+            "mu2": "0.5.20",
+            "should": "3.1.2",
+            "jayschema": "0.2.x",
+            "wrench": "1.5.6"
+        }
+    },
+    {
+        "name": "rest-tool-cookbook",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Examples for rest-tool usage",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/rest-tool-cookbook",
+        "git_url": "git://github.com/tombenke/rest-tool-cookbook.git",
+        "package": {
+            "name": "rest-tool-cookbook",
+            "description": "Cookbook for the rest-tool",
+            "version": "0.3.0",
+            "tags": [
+                "rest",
+                "restful",
+                "api",
+                "docs",
+                "util",
+                "utility",
+                "rest-tool",
+                "cookbook",
+                "examples"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/rest-tool-cookbook.git"
+            },
+            "bin": {},
+            "dependencies": {
+                "commander": "*",
+                "wrench": "*",
+                "proper": "0.5.0",
+                "rest-tool-common": "0.4.2",
+                "js-yaml": "*",
+                "should": "3.1.2",
+                "mu2": "*",
+                "mocha": "*",
+                "superagent": "*",
+                "marked": "~0.3.1",
+                "express": "3.3.6",
+                "request": "*",
+                "http-proxy": "0.10.3",
+                "async": "~0.9.0"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "*",
+            "wrench": "*",
+            "proper": "0.5.0",
+            "rest-tool-common": "0.4.2",
+            "js-yaml": "*",
+            "should": "3.1.2",
+            "mu2": "*",
+            "mocha": "*",
+            "superagent": "*",
+            "marked": "~0.3.1",
+            "express": "3.3.6",
+            "request": "*",
+            "http-proxy": "0.10.3",
+            "async": "~0.9.0"
+        }
+    },
+    {
+        "name": "restapi",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A simple Node.js module to document, emulate and test RESTful APIs.",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/restapi",
+        "git_url": "git://github.com/tombenke/restapi.git",
+        "package": {
+            "name": "restapi",
+            "description": "A tool to document emulate and test RESTful APIs.",
+            "version": "0.7.1",
+            "private": true,
+            "tags": [
+                "rest",
+                "restful",
+                "api",
+                "docs",
+                "util",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/restapi.git"
+            },
+            "bin": {
+                "restapi": "./bin/restapi.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "*",
+                "wrench": "*",
+                "proper": "git+https://github.com/tombenke/proper.git#v0.2.0",
+                "js-yaml": "*",
+                "should": "2.0.2",
+                "mu2": "*",
+                "mocha": "*",
+                "superagent": "*",
+                "marked": "~0.3.1"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "*",
+            "wrench": "*",
+            "proper": "git+https://github.com/tombenke/proper.git#v0.2.0",
+            "js-yaml": "*",
+            "should": "2.0.2",
+            "mu2": "*",
+            "mocha": "*",
+            "superagent": "*",
+            "marked": "~0.3.1"
+        }
+    },
+    {
+        "name": "scmt",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Schema Management Tool",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/scmt",
+        "git_url": "git://github.com/tombenke/scmt.git",
+        "package": {
+            "name": "scmt",
+            "description": "Schema Manager Tool",
+            "version": "1.0.2",
+            "tags": [
+                "cli",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/scmt/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/scmt/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/scmt.git"
+            },
+            "bin": {
+                "scmt": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.0.0",
+                "generate-schema": "^2.1.1",
+                "jayschema": "0.3.x",
+                "js-yaml": "2.1.0",
+                "node-plantuml": "^0.4.4",
+                "underscore": "^1.8.3"
+            },
+            "devDependencies": {
+                "gulp": "^3.8.10",
+                "gulp-debug": "^1.0.1",
+                "gulp-markdown": "^1.0.0",
+                "gulp-mustache": "^1.0.0",
+                "gulp-through": "^0.3.0",
+                "vinyl-buffer": "^1.0.0",
+                "gulp-rename": "^1.2.0"
+            },
+            "scripts": {
+                "lint": "jshint **.js"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "2.0.0",
+            "generate-schema": "^2.1.1",
+            "jayschema": "0.3.x",
+            "js-yaml": "2.1.0",
+            "node-plantuml": "^0.4.4",
+            "underscore": "^1.8.3",
+            "gulp": "^3.8.10",
+            "gulp-debug": "^1.0.1",
+            "gulp-markdown": "^1.0.0",
+            "gulp-mustache": "^1.0.0",
+            "gulp-through": "^0.3.0",
+            "vinyl-buffer": "^1.0.0",
+            "gulp-rename": "^1.2.0"
+        }
+    },
+    {
+        "name": "seneca-app-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A kickoff archetype for seneca.js applications",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-app-archetype",
+        "git_url": "git://github.com/tombenke/seneca-app-archetype.git",
+        "package": {
+            "name": "{{application_name}}",
+            "description": "{{application_description}}",
+            "version": "1.0.0",
+            "keywords": [
+                "seneca",
+                "micro-services"
+            ],
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{application_name}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{application_name}}/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/{{author_github_account}}/{{application_name}}",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{application_name}}.git"
+            },
+            "main": "lib/index",
+            "dependencies": {
+                "seneca": "^3.x.x"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --compilers js:babel-register --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            }
+        },
+        "tags": [
+            "seneca",
+            "micro-services"
+        ],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "eslint": "^3.10.2",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "seneca-cookbook",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Seneca Cook-book",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-cookbook",
+        "git_url": "git://github.com/tombenke/seneca-cookbook.git",
+        "package": {
+            "name": "seneca-cookbook",
+            "description": "Seneca.js Cheat-Sheet",
+            "version": "1.0.0",
+            "tags": [
+                "seneca",
+                "micro-services"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/seneca-cookbook/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/seneca-cookbook/blob/master/LICENSE"
+            },
+            "homepage": "https://github.com/tombenke/seneca-cookbook",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/seneca-cookbook.git"
+            },
+            "main": "lib/index",
+            "dependencies": {
+                "seneca": "^3.x.x"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --compilers js:babel-register --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "eslint": "^3.10.2",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "seneca-logtrans-plugin",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Internal, log translator plugin for seneca",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-logtrans-plugin",
+        "git_url": "git://github.com/tombenke/seneca-logtrans-plugin.git",
+        "package": {
+            "name": "seneca-logtrans-plugin",
+            "description": "internal plugin to transform and process log entries of seneca instances.",
+            "version": "1.0.4",
+            "keywords": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/seneca-logtrans-plugin/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/seneca-logtrans-plugin",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/seneca-logtrans-plugin.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "lodash": "^4.17.4",
+                "seneca": "^3.3.x"
+            },
+            "devDependencies": {
+                "chai": "^3.5.0",
+                "coveralls": "^2.11.15",
+                "cross-env": "^2.x.x",
+                "eslint": "^3.10.2",
+                "istanbul": "1.0.0-alpha.2",
+                "js-yaml": "^3.8.1",
+                "mocha": "^2.x.x",
+                "mocha-lcov-reporter": "^1.2.0"
+            },
+            "scripts": {
+                "lint": "eslint lib/** examples/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [
+            "seneca",
+            "plugin",
+            "micro-services"
+        ],
+        "dependencies": {
+            "lodash": "^4.17.4",
+            "seneca": "^3.3.x",
+            "chai": "^3.5.0",
+            "coveralls": "^2.11.15",
+            "cross-env": "^2.x.x",
+            "eslint": "^3.10.2",
+            "istanbul": "1.0.0-alpha.2",
+            "js-yaml": "^3.8.1",
+            "mocha": "^2.x.x",
+            "mocha-lcov-reporter": "^1.2.0"
+        }
+    },
+    {
+        "name": "seneca-plugin-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A kickoff archetype for seneca.js plugins",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-plugin-archetype",
+        "git_url": "git://github.com/tombenke/seneca-plugin-archetype.git",
+        "package": {
+            "name": "{{plugin_name}}",
+            "description": "{{plugin_description}}",
+            "version": "1.0.0",
+            "keywords": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{plugin_name}}/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/{{author_github_account}}/{{plugin_name}}",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{plugin_name}}.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "seneca": "^3.x.x"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "chai": "^3.5.0",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [
+            "seneca",
+            "plugin",
+            "micro-services"
+        ],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "eslint": "^3.10.2",
+            "chai": "^3.5.0",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "seneca-r-script",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A seneca plugin to run R scripts as child processes",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-r-script",
+        "git_url": "git://github.com/tombenke/seneca-r-script.git",
+        "package": {
+            "name": "seneca-r-script",
+            "description": "A seneca plugin to run R scripts as child processes",
+            "version": "1.0.7",
+            "tags": [
+                "seneca",
+                "plugin",
+                "micro-services"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/seneca-r-script/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/tombenke/seneca-r-script",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/seneca-r-script.git"
+            },
+            "engines": {
+                "node": "^4.0.0"
+            },
+            "dependencies": {
+                "r-script": "0.0.3",
+                "seneca": "^3.x.x"
+            },
+            "devDependencies": {
+                "eslint": "^3.10.2",
+                "chai": "^3.5.0",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**.js",
+                "test": "cross-env NODE_ENV=test mocha --recursive --timeout 15000 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- recursive --timeout 15000 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- recursive --timeout 15000 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [],
+        "dependencies": {
+            "r-script": "0.0.3",
+            "seneca": "^3.x.x",
+            "eslint": "^3.10.2",
+            "chai": "^3.5.0",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "seneca-worker-archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A project archetype for seneca.js worker plugins",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/seneca-worker-archetype",
+        "git_url": "git://github.com/tombenke/seneca-worker-archetype.git",
+        "package": {
+            "name": "{{plugin_name}}",
+            "description": "{{plugin_description}}",
+            "version": "1.0.0",
+            "keywords": [
+                "seneca",
+                "plugin",
+                "worker",
+                "micro-service"
+            ],
+            "main": "lib/index.js",
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{plugin_name}}/issues"
+            },
+            "license": "MIT",
+            "homepage": "https://github.com/{{author_github_account}}/{{plugin_name}}",
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/{{author_github_account}}/{{plugin_name}}.git"
+            },
+            "engines": {
+                "node": "^6.10.0"
+            },
+            "dependencies": {
+                "seneca": "^3.x.x",
+                "seneca-amqp-transport": "^2.1.0"
+            },
+            "devDependencies": {
+                "pre-push": "^0.1.1",
+                "seneca-stub": "^1.2.2",
+                "eslint": "^3.10.2",
+                "chai": "^3.5.0",
+                "cross-env": "^2.x.x",
+                "mocha": "^2.x.x",
+                "coveralls": "^2.11.15",
+                "mocha-lcov-reporter": "^1.2.0",
+                "istanbul": "1.0.0-alpha.2"
+            },
+            "scripts": {
+                "lint": "eslint lib/**",
+                "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+                "test:watch": "npm test -- --watch",
+                "coverage": "NODE_ENV=test istanbul cover _mocha -- --timeout 15000 --recursive 'lib/**/*.spec.js'",
+                "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- --timeout 15000 --recursive 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+            },
+            "pre-push": [
+                "lint",
+                "test"
+            ]
+        },
+        "tags": [
+            "seneca",
+            "plugin",
+            "worker",
+            "micro-service"
+        ],
+        "dependencies": {
+            "seneca": "^3.x.x",
+            "seneca-amqp-transport": "^2.1.0",
+            "pre-push": "^0.1.1",
+            "seneca-stub": "^1.2.2",
+            "eslint": "^3.10.2",
+            "chai": "^3.5.0",
+            "cross-env": "^2.x.x",
+            "mocha": "^2.x.x",
+            "coveralls": "^2.11.15",
+            "mocha-lcov-reporter": "^1.2.0",
+            "istanbul": "1.0.0-alpha.2"
+        }
+    },
+    {
+        "name": "SST",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A very simple Daily Start-Stop Timer for Arduino",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/SST",
+        "git_url": "git://github.com/tombenke/SST.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "tombenke.github.com",
+        "owner": "tombenke",
+        "private": false,
+        "description": null,
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/tombenke.github.com",
+        "git_url": "git://github.com/tombenke/tombenke.github.com.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "tombenke.github.io",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A site for documenting projects maintained by Tamás Benke",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/tombenke.github.io",
+        "git_url": "git://github.com/tombenke/tombenke.github.io.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "transrept",
+        "owner": "tombenke",
+        "private": false,
+        "description": "General purpose tranreptor utility",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/transrept",
+        "git_url": "git://github.com/tombenke/transrept.git",
+        "package": {
+            "name": "transrept",
+            "description": "transrept is a Command-Line application using Node.js.",
+            "version": "0.1.1",
+            "tags": [
+                "cli",
+                "util",
+                "tool",
+                "utility"
+            ],
+            "author": {
+                "name": "Tamás Benke",
+                "email": "tombenke@gmail.com"
+            },
+            "bugs": {
+                "url": "https://github.com/tombenke/transrept/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/tombenke/transrept/blob/master/LICENSE"
+            },
+            "repository": {
+                "type": "git",
+                "url": "http://github.com/tombenke/transrept.git"
+            },
+            "bin": {
+                "ncli": "./bin/cli.js"
+            },
+            "main": "index",
+            "dependencies": {
+                "commander": "2.0.0",
+                "xml-mapping": "1.1.0"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "commander": "2.0.0",
+            "xml-mapping": "1.1.0"
+        }
+    },
+    {
+        "name": "website_freelancer_archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A project archetype for website creation using the freelancer Bootstrap theme",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/website_freelancer_archetype",
+        "git_url": "git://github.com/tombenke/website_freelancer_archetype.git",
+        "package": {
+            "name": "{{project_name}}",
+            "description": "{{project_description}}",
+            "title": "{{title}}",
+            "version": "1.0.0",
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}/LICENSE"
+            },
+            "devDependencies": {
+                "bootstrap": "^3.3.7",
+                "browser-sync": "^2.13.0",
+                "font-awesome": "^4.6.3",
+                "gulp": "^3.9.1",
+                "gulp-data": "^1.2.1",
+                "gulp-clean-css": "^2.0.10",
+                "gulp-filter": "^4.0.0",
+                "gulp-header": "^1.8.7",
+                "gulp-less": "^3.1.0",
+                "gulp-markdown": "^1.2.0",
+                "gulp-mustache": "^2.3.0",
+                "gulp-rename": "^1.2.2",
+                "gulp-uglify": "^1.5.4",
+                "jquery": "^1.11.3",
+                "magnific-popup": "^1.1.0",
+                "scrollreveal": "^3.1.4",
+                "js-yaml": "^3.8.4"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}.git"
+            },
+            "scripts": {
+                "build": "node_modules/gulp/bin/gulp.js",
+                "watch": "node_modules/gulp/bin/gulp.js watch"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "bootstrap": "^3.3.7",
+            "browser-sync": "^2.13.0",
+            "font-awesome": "^4.6.3",
+            "gulp": "^3.9.1",
+            "gulp-data": "^1.2.1",
+            "gulp-clean-css": "^2.0.10",
+            "gulp-filter": "^4.0.0",
+            "gulp-header": "^1.8.7",
+            "gulp-less": "^3.1.0",
+            "gulp-markdown": "^1.2.0",
+            "gulp-mustache": "^2.3.0",
+            "gulp-rename": "^1.2.2",
+            "gulp-uglify": "^1.5.4",
+            "jquery": "^1.11.3",
+            "magnific-popup": "^1.1.0",
+            "scrollreveal": "^3.1.4",
+            "js-yaml": "^3.8.4"
+        }
+    },
+    {
+        "name": "website_modern_business_archetype",
+        "owner": "tombenke",
+        "private": false,
+        "description": "A project archetype for landing page creation using the \"Modern Business\" Bootstrap theme",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/website_modern_business_archetype",
+        "git_url": "git://github.com/tombenke/website_modern_business_archetype.git",
+        "package": {
+            "name": "{{project_name}}",
+            "description": "{{project_description}}",
+            "title": "{{title}}",
+            "version": "1.0.0",
+            "author": {
+                "name": "{{author_full_name}}",
+                "email": "{{author_email}}"
+            },
+            "bugs": {
+                "url": "https://github.com/{{author_github_account}}/{{appname}}/issues"
+            },
+            "license": {
+                "type": "MIT",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}/LICENSE"
+            },
+            "devDependencies": {
+                "bootstrap": "^3.3.7",
+                "browser-sync": "^2.13.0",
+                "font-awesome": "^4.6.3",
+                "gulp": "^3.9.1",
+                "gulp-data": "^1.2.1",
+                "gulp-clean-css": "^2.0.10",
+                "gulp-filter": "^4.0.0",
+                "gulp-header": "^1.8.7",
+                "gulp-less": "^3.1.0",
+                "gulp-markdown": "^1.2.0",
+                "gulp-mustache": "^2.3.0",
+                "gulp-rename": "^1.2.2",
+                "gulp-uglify": "^1.5.4",
+                "jquery": "^1.11.3",
+                "magnific-popup": "^1.1.0",
+                "scrollreveal": "^3.1.4",
+                "js-yaml": "^3.8.4"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/{{author_github_account}}/{{project_name}}.git"
+            },
+            "scripts": {
+                "build": "node_modules/gulp/bin/gulp.js",
+                "watch": "node_modules/gulp/bin/gulp.js watch"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "bootstrap": "^3.3.7",
+            "browser-sync": "^2.13.0",
+            "font-awesome": "^4.6.3",
+            "gulp": "^3.9.1",
+            "gulp-data": "^1.2.1",
+            "gulp-clean-css": "^2.0.10",
+            "gulp-filter": "^4.0.0",
+            "gulp-header": "^1.8.7",
+            "gulp-less": "^3.1.0",
+            "gulp-markdown": "^1.2.0",
+            "gulp-mustache": "^2.3.0",
+            "gulp-rename": "^1.2.2",
+            "gulp-uglify": "^1.5.4",
+            "jquery": "^1.11.3",
+            "magnific-popup": "^1.1.0",
+            "scrollreveal": "^3.1.4",
+            "js-yaml": "^3.8.4"
+        }
+    },
+    {
+        "name": "widgets",
+        "owner": "tombenke",
+        "private": false,
+        "description": "Widget set for CouchDB based applications",
+        "homepage": "tombenke.couchone.com/widgets/_design/widgets/index.html",
+        "html_url": "https://github.com/tombenke/widgets",
+        "git_url": "git://github.com/tombenke/widgets.git",
+        "tags": [],
+        "dependencies": {}
+    },
+    {
+        "name": "xmpp_sbox",
+        "owner": "tombenke",
+        "private": false,
+        "description": "XMPP SandBox with JavaScript sample code",
+        "homepage": null,
+        "html_url": "https://github.com/tombenke/xmpp_sbox",
+        "git_url": "git://github.com/tombenke/xmpp_sbox.git",
+        "package": {
+            "name": "xmpp_sbox",
+            "version": "1.0.0",
+            "description": "XMPP sandbox",
+            "main": "index.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "author": "tombenke",
+            "license": "MIT",
+            "dependencies": {
+                "stanza.io": "^7.3.4",
+                "yamljs": "~0.2.4"
+            },
+            "devDependencies": {
+                "async": "~1.4.2",
+                "should": "~7.1.0",
+                "colors": "~1.1.2"
+            }
+        },
+        "tags": [],
+        "dependencies": {
+            "stanza.io": "^7.3.4",
+            "yamljs": "~0.2.4",
+            "async": "~1.4.2",
+            "should": "~7.1.0",
+            "colors": "~1.1.2"
+        }
+    }
+]
