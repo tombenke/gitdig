@@ -1,9 +1,11 @@
 {
   "name": "gitdig",
-  "description": "simple git tool for documenting and dicovering multi-repo projects",
-  "version": "1.0.1",
-  "tags": [
+  "description": "A simple git tool for documenting and discovering multi-repo projects",
+  "version": "1.0.0",
+  "keywords": [
     "cli",
+    "git",
+    "git-api",
     "util",
     "tool",
     "utility"
