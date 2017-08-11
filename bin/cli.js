@@ -4,11 +4,12 @@
  * The main entry point of the gitdig command-line utility
  */
 (function() {
-    var config = require('../lib/config.js');
-    var program = require('commander');
-    var thisPackage = require(__dirname + '/../package.json');
-    program._name = thisPackage.name;
-    var app = require('../index');
+    const _ = require('lodash')
+    const config = require('../lib/config.js')
+    const program = require('commander')
+    const thisPackage = require(__dirname + '/../package.json')
+    program._name = thisPackage.name
+    const app = require('../index')
 
     const getGenericArgs = (options) => {
         let cliConfig = {}
@@ -79,8 +80,14 @@
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .option("-x, --no-externals", "No external nodes and links will be exported", Boolean, false)
         .action(function(content, options) {
                 var cliConfig = getGenericArgs(options)
+                if (_.has(options, 'externals') && _.isBoolean(options.externals)) {
+                    cliConfig.export = {
+                        externals: options.externals
+                    }
+                }
                 config.load(options.config, cliConfig)
                 app.export.execute(content, config)
             })
