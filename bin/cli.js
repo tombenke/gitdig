@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-/*jshint node: true */
-'use strict';
 
 /**
- * command-line utility
+ * The main entry point of the gitdig command-line utility
  */
 (function() {
     var config = require('../lib/config.js');
@@ -11,12 +9,6 @@
     var thisPackage = require(__dirname + '/../package.json');
     program._name = thisPackage.name;
     var app = require('../index');
-
-    var ON_DEATH = require('death');
- 
-    ON_DEATH(function(signal, err) {
-        //clean up code here 
-    })
 
     const getGenericArgs = (options) => {
         let cliConfig = {}
@@ -37,7 +29,6 @@
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .action(function(options) {
                 var cliConfig = getGenericArgs(options)
-                //config.load(options.config, cliConfig)
                 app.init.execute(config, cliConfig)
             })
 

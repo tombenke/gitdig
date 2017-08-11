@@ -42,7 +42,15 @@
     "readline-sync": "^1.4.7"
   },
   "devDependencies": {
+    "pre-push": "^0.1.1",
+    "seneca-stub": "^1.2.2",
     "eslint": "^3.10.2",
+    "chai": "^3.5.0",
+    "cross-env": "^2.x.x",
+    "mocha": "^2.x.x",
+    "coveralls": "^2.11.15",
+    "mocha-lcov-reporter": "^1.2.0",
+    "istanbul": "1.0.0-alpha.2",
     "gulp": "^3.8.10",
     "gulp-debug": "^1.0.1",
     "gulp-markdown": "^1.0.0",
@@ -53,6 +61,13 @@
   },
   "scripts": {
     "lint": "eslint lib/** bin/** config/**.js",
+    "test": "cross-env NODE_ENV=test mocha --recursive 'lib/**/*.spec.js'",
+    "coverage": "NODE_ENV=test istanbul cover _mocha -- --timeout 15000 --recursive 'lib/**/*.spec.js'",
+    "coveralls": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- --timeout 15000 --recursive 'lib/**/*.spec.js' -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "docgen": "gulp docgen"
-  }
+  },
+  "pre-push": [
+    "lint",
+    "test"
+  ]
 }
