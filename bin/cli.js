@@ -18,6 +18,15 @@
         //clean up code here 
     })
 
+    const getGenericArgs = (options) => {
+        let cliConfig = {}
+        if (options.gitUser) cliConfig.gitUser = options.gitUser;
+        if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
+        if (options.offline) cliConfig.offline = options.offline;
+        if (options.config) cliConfig.configFileName = options.config;
+        return cliConfig
+    }
+
     // Setup the commands of the program
     program
         .version(thisPackage.version)
@@ -27,13 +36,10 @@
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .action(function(options) {
-                var cliConfig = {}
-                if (options.gitUser) cliConfig.gitUser = options.gitUser;
-                if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
-                if (options.config) cliConfig.configFileName = options.config;
-                config.load(options.config, cliConfig);
-                app.collect.execute(config);
-            });
+                var cliConfig = getGenericArgs(options)
+                config.load(options.config, cliConfig)
+                app.collect.execute(config)
+            })
 
     program
         .command('ls')
@@ -44,15 +50,11 @@
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
         .action(function(options) {
-                var cliConfig = {}
-                if (options.long) cliConfig.long = options.long;
-                if (options.gitUser) cliConfig.gitUser = options.gitUser;
-                if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
-                if (options.offline) cliConfig.offline = options.offline;
-                if (options.config) cliConfig.configFileName = options.config;
-                config.load(options.config, cliConfig);
-                app.ls.execute(config);
-            });
+                var cliConfig = getGenericArgs(options)
+                if (options.long) cliConfig.long = options.long
+                config.load(options.config, cliConfig)
+                app.ls.execute(config)
+            })
 
     program
         .command('check')
@@ -62,14 +64,23 @@
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
         .action(function(options) {
-                var cliConfig = {}
-                if (options.gitUser) cliConfig.gitUser = options.gitUser;
-                if (options.snapshot) cliConfig.snapshotFile = options.snapshot;
-                if (options.offline) cliConfig.offline = options.offline;
-                if (options.config) cliConfig.configFileName = options.config;
-                config.load(options.config, cliConfig);
-                app.check.execute(config);
-            });
+                var cliConfig = getGenericArgs(options)
+                config.load(options.config, cliConfig)
+                app.check.execute(config)
+            })
 
-    program.parse(process.argv);
-})();
+    program
+        .command('export <content>')
+        .description('Export aggregations from repo data')
+        .option("-c, --config [config file name]", "The name of the config file to use", String, null)
+        .option("-u, --git-user [user name]", "The git account", String, null)
+        .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
+        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .action(function(content, options) {
+                var cliConfig = getGenericArgs(options)
+                config.load(options.config, cliConfig)
+                app.export.execute(content, config)
+            })
+
+    program.parse(process.argv)
+})()
