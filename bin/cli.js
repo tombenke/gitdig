@@ -30,6 +30,18 @@
     // Setup the commands of the program
     program
         .version(thisPackage.version)
+        .command('init')
+        .description('Create initial config file with default values')
+        .option("-c, --config [config file name]", "The name of the config file to use", String, null)
+        .option("-u, --git-user [user name]", "The git account", String, null)
+        .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
+        .action(function(options) {
+                var cliConfig = getGenericArgs(options)
+                //config.load(options.config, cliConfig)
+                app.init.execute(config, cliConfig)
+            })
+
+    program
         .command('collect')
         .description('Collect data about repositories, through a selected user account, and make a local snapshot file.')
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
