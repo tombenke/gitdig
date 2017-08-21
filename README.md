@@ -1,3 +1,8 @@
+gitdig
+======
+
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+
 ## About
 
 A simple git tool for documenting and dicovering multi-repo projects

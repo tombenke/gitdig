@@ -52,7 +52,7 @@
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
-        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
         .action(function(options) {
                 var cliConfig = getGenericArgs(options)
                 if (options.long) cliConfig.long = options.long
@@ -66,11 +66,24 @@
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
-        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
         .action(function(options) {
                 var cliConfig = getGenericArgs(options)
                 config.load(options.config, cliConfig)
                 app.check.execute(config)
+            })
+
+    program
+        .command('dependencies')
+        .description('Check the dependencies')
+        .option("-c, --config [config file name]", "The name of the config file to use", String, null)
+        .option("-u, --git-user [user name]", "The git account", String, null)
+        .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
+        .action(function(options) {
+                var cliConfig = getGenericArgs(options)
+                config.load(options.config, cliConfig)
+                app.dependencies.execute(config)
             })
 
     program
@@ -79,7 +92,7 @@
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
-        .option("-o, --offline", "Use the local snapshot (offline mode)", Boolean, false)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
         .option("-x, --no-externals", "No external nodes and links will be exported", Boolean, false)
         .action(function(content, options) {
                 var cliConfig = getGenericArgs(options)
