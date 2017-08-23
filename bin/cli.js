@@ -80,8 +80,10 @@
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .option("-o, --offline", "Use the local snapshot (offline mode)")
+        .option("-a, --affected", "Show the list of affected repositories")
         .action(function(options) {
                 var cliConfig = getGenericArgs(options)
+                if (options.affected) cliConfig.affected = options.affected
                 config.load(options.config, cliConfig)
                 app.dependencies.execute(config)
             })
@@ -93,8 +95,10 @@
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
         .option("-o, --offline", "Use the local snapshot (offline mode)")
+        .option("-a, --affected", "Show the list of affected repositories")
         .action(function(options) {
                 var cliConfig = getGenericArgs(options)
+                if (options.affected) cliConfig.affected = options.affected
                 config.load(options.config, cliConfig)
                 app.vulnerabilities.execute(config)
             })
