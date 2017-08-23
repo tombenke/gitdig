@@ -75,7 +75,7 @@
 
     program
         .command('dependencies')
-        .description('Check the dependencies')
+        .description('Check if there are new versions of modules used')
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
@@ -84,6 +84,19 @@
                 var cliConfig = getGenericArgs(options)
                 config.load(options.config, cliConfig)
                 app.dependencies.execute(config)
+            })
+
+    program
+        .command('vulnerabilities')
+        .description('Check the vulnerabilities of modules used')
+        .option("-c, --config [config file name]", "The name of the config file to use", String, null)
+        .option("-u, --git-user [user name]", "The git account", String, null)
+        .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
+        .action(function(options) {
+                var cliConfig = getGenericArgs(options)
+                config.load(options.config, cliConfig)
+                app.vulnerabilities.execute(config)
             })
 
     program
