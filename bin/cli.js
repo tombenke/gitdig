@@ -100,6 +100,25 @@
             })
 
     program
+        .command('dependants <dependency>')
+        .description('Lists the repositories that depends on the <dependency>')
+        .option("-c, --config [config file name]", "The name of the config file to use", String, null)
+        .option("-u, --git-user [user name]", "The git account", String, null)
+        .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
+        .option("-o, --offline", "Use the local snapshot (offline mode)")
+        .option("-x, --no-externals", "No external nodes and links will be listed", Boolean, false)
+        .action(function(dependency, options) {
+                var cliConfig = getGenericArgs(options)
+                if (_.has(options, 'externals') && _.isBoolean(options.externals)) {
+                    cliConfig.export = {
+                        externals: options.externals
+                    }
+                }
+                config.load(options.config, cliConfig)
+                app.dependants.execute(dependency, config)
+            })
+
+    program
         .command('export <content>')
         .description('Export aggregations from repo data')
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
