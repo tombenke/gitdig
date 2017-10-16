@@ -48,7 +48,7 @@
     program
         .command('ls')
         .description('List the repositories')
-        .option("-l, --long", "Long format, including some details", Boolean, false)
+        .option("-l, --long", "Long format, including some details")
         .option("-c, --config [config file name]", "The name of the config file to use", String, null)
         .option("-u, --git-user [user name]", "The git account", String, null)
         .option("-s, --snapshot [snapshot file name]", "Define the file name for the local snapshot repo summaries", String, null)
