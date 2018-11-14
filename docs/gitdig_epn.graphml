@@ -347,7 +347,7 @@ snapshot<y:LabelModel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="347.96838373059325" width="148.19999999999982" x="1386.8098318056072" y="184.8902868343646"/>
+              <y:Geometry height="391.36886147956164" width="148.19999999999982" x="1386.8098318056072" y="141.4898090853962"/>
               <y:Fill color="#F2F0D8" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.19999999999982" x="0.0" y="0.0">Show</y:NodeLabel>
@@ -355,7 +355,7 @@ snapshot<y:LabelModel>
               <y:DropShadow color="#D2D2D2" offsetX="4" offsetY="4"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="9" topF="9.199999999999989"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="181.49292188560958" y="-112.38267549082053"/>
@@ -375,7 +375,7 @@ snapshot<y:LabelModel>
         <node id="n5::n0">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
-              <y:Geometry height="70.13700103759766" width="118.19999999999987" x="1401.8098318056072" y="302.2832015645341"/>
+              <y:Geometry height="70.13700103759766" width="118.19999999999987" x="1401.8098318056072" y="307.2970613319992"/>
               <y:Fill color="#FF9900" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.90625" x="19.64687499999991" y="5.131000518798828">view
@@ -394,7 +394,7 @@ UI<y:LabelModel>
         <node id="n5::n1">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
-              <y:Geometry height="29.83435294117629" width="118.19999999999987" x="1401.8098318056072" y="392.0136718776626"/>
+              <y:Geometry height="29.83435294117629" width="118.19999999999987" x="1401.8098318056072" y="394.52060176139514"/>
               <y:Fill color="#FF9900" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="43.08203125" x="37.55898437499991" y="5.932801470588174">export<y:LabelModel>
@@ -410,7 +410,7 @@ UI<y:LabelModel>
         <node id="n5::n2">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
-              <y:Geometry height="52.60047774896839" width="118.19999999999987" x="1401.8098318056072" y="230.55122433436458"/>
+              <y:Geometry height="52.60047774896839" width="118.19999999999987" x="1401.8098318056072" y="240.11697407496513"/>
               <y:Fill color="#FF9900" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="49.85546875" x="34.17226562499991" y="3.3471138744841937">print
@@ -434,6 +434,24 @@ console<y:LabelModel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.890625" x="5.654687499999909" y="15.255463235294087">Monitor
 and
 Send Notification<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n5::n4">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode3">
+              <y:Geometry height="52.60047774896839" width="118.19999999999987" x="1401.8098318056072" y="177.9507465853962"/>
+              <y:Fill color="#FF9900" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.642578125" x="28.77871093749991" y="3.3471138744841937">configure
+and
+control<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -670,7 +688,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="64.96826171875" width="56.554100036621094" x="1585.8861707213482" y="172.1052255414785"/>
+          <y:Geometry height="64.96826171875" width="56.554100036621094" x="1571.8861707213482" y="172.1052255414785"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="42.314453125" x="7.119823455810547" y="68.96826171875">PM/PO<y:LabelModel>
@@ -691,7 +709,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="70.13700103759766" width="56.558998107910156" x="1585.8837216857037" y="353.0836690390789"/>
+          <y:Geometry height="70.13700103759766" width="56.558998107910156" x="1571.8837216857037" y="353.0836690390789"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.716796875" x="-4.578899383544922" y="74.13700103759766">Developer<y:LabelModel>
@@ -712,7 +730,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="64.63800048828125" width="56.554100036621094" x="1585.8861707213482" y="453.2206700766766"/>
+          <y:Geometry height="64.63800048828125" width="56.554100036621094" x="1571.8861707213482" y="453.2206700766766"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.5625" x="-2.504199981689453" y="68.63800048828125">Ops. Eng.<y:LabelModel>
@@ -733,7 +751,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="62.31911087036133" width="56.55500030517578" x="1585.8857205870709" y="260.7645581687176"/>
+          <y:Geometry height="62.31911087036133" width="56.55500030517578" x="1571.8857205870709" y="260.7645581687176"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="55.46875" x="0.5431251525878906" y="66.31911087036133">QA resp.<y:LabelModel>
@@ -874,7 +892,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="5.695900781249293" sy="22.06956825528971" tx="3.860288194393206" ty="-32.25324536632826"/>
+          <y:Path sx="5.695900781249293" sy="22.06956825528971" tx="4.411023345606969" ty="-10.55300649184403"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -885,7 +903,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-4.573817040741005" ty="30.617419126476157">
+          <y:Path sx="0.0" sy="0.0" tx="-2.55701796448704" ty="52.317658000960364">
             <y:Point x="1357.0960147648657" y="547.2143999999998"/>
             <y:Point x="1357.0960147648657" y="389.49189782613735"/>
           </y:Path>
@@ -950,7 +968,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.8602881943932061" sy="-154.28512229880772" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.9270026905599644" sy="-132.5848834243235" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -961,7 +979,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="1.8602881943932061" sy="-66.95036509576295" tx="0.0" ty="0.0"/>
+          <y:Path sx="7.024038836892222" sy="-45.25012622127872" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -972,7 +990,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="4.860288194393206" sy="29.277690858216545" tx="0.0" ty="0.0"/>
+          <y:Path sx="6.153033673130472" sy="50.97792973270077" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -983,7 +1001,7 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="18.860288194393206" sy="126.665191621156" tx="0.0" ty="0.0"/>
+          <y:Path sx="17.476100802033233" sy="148.36543049564023" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -994,10 +1012,57 @@ vulnerability DBs</y:NodeLabel>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="142.64137426071852" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="159.03842421467706" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n5" target="n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-0.7541549999996278" ty="14.84378208333328">
+            <y:Point x="1460.9098318056072" y="596.8501820833333"/>
+            <y:Point x="356.9482450000004" y="596.8501820833333"/>
+            <y:Point x="356.9482450000004" y="562.0581820833331"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n5" target="n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="3.502413194393057" sy="-169.52405774184376" tx="-8.614950889326337" ty="-114.73841684855489">
+            <y:Point x="1561.6922450000002" y="167.65018208333322"/>
+            <y:Point x="1561.6922450000002" y="113.25018208333321"/>
+            <y:Point x="947.9322450000002" y="113.25018208333321"/>
+            <y:Point x="947.9322450000002" y="273.25018208333324"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n5" target="n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="10.494413194393474" sy="-171.14805774184376" tx="-20.63067688560909" ty="-56.112964781990854">
+            <y:Point x="1562.3322450000003" y="166.02618208333323"/>
+            <y:Point x="1562.3322450000003" y="112.6101820833332"/>
+            <y:Point x="480.4122450000002" y="112.6101820833332"/>
+            <y:Point x="480.4122450000002" y="274.5881820833332"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
