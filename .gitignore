@@ -2,3 +2,5 @@ node_modules
 coverage
 tmp
 npm-debug.log
+.gitdig_config.yml
+.gitdig_snapshot.json
